@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CafeBot | Fresh Coffee &amp; Bakes</title>
+  <meta name="description" content="CafeBot café: specialty coffee, fresh pastries and light bites in a cozy neighborhood spot.">
+  <meta name="theme-color" content="#1e1824">
+  <meta property="og:title" content="CafeBot | Fresh Coffee &amp; Bakes">
+  <meta property="og:description" content="Specialty coffee, fresh pastries and light bites in a cozy neighborhood spot.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2032%2032%27%3E%3Crect%20width%3D%2732%27%20height%3D%2732%27%20rx%3D%278%27%20fill%3D%27%231e1824%27%2F%3E%3Cpath%20d%3D%27M6%2013h16v6a7%207%200%200%201-7%207h-2a7%207%200%200%201-7-7z%27%20fill%3D%27%23d8ba94%27%2F%3E%3Cpath%20d%3D%27M22%2015h2a3%203%200%200%201%200%206h-2%27%20fill%3D%27none%27%20stroke%3D%27%23d8ba94%27%20stroke-width%3D%272.5%27%2F%3E%3Cpath%20d%3D%27M11%204c-1.5%202%201.5%203%200%206M16%204c-1.5%202%201.5%203%200%206%27%20fill%3D%27none%27%20stroke%3D%27%23d8ba94%27%20stroke-width%3D%272%27%20stroke-linecap%3D%27round%27%2F%3E%3C%2Fsvg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,500;1,600&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Top bar (PLACEHOLDER contact details) -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <p>Welcome to our Coffee Shop</p>
+      <ul>
+        <li><a href="mailto:hello@cafebot.example">hello@cafebot.example</a></li>
+        <li><a href="tel:+15550000000">(555) 000-0000</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 1. Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="logo" aria-label="CafeBot home">
+        <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M6 13h16v6a7 7 0 0 1-7 7h-2a7 7 0 0 1-7-7z" fill="currentColor"/><path d="M22 15h2a3 3 0 0 1 0 6h-2" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M11 4c-1.5 2 1.5 3 0 6M16 4c-1.5 2 1.5 3 0 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <span class="logo-text">Cafe<em>Bot</em></span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Menu" aria-controls="site-nav">
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+        <span></span>
+      </label>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#top">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#why">Why Us</a></li>
+          <li><a href="#visit">Visit</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- 2. Hero -->
+    <section class="hero" id="top">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="eyebrow">Neighborhood coffee house</p>
+          <h1>Great coffee, fresh bakes, <em>good company.</em></h1>
+          <p class="hero-lead">Small-batch roasts, pastries baked every morning, and a warm seat waiting for you.</p>
+          <div class="hero-actions">
+            <a href="#menu" class="btn">See the Menu</a>
+            <a href="#visit" class="btn btn-ghost">Find Us</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <div class="hero-photo">
+            <img src="images/hero-coffee-sandwich.jpg" width="1400" height="933" fetchpriority="high"
+                 alt="An iced coffee beside a tray with a toasted sandwich on a café table">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. About / Welcome -->
+    <section class="section about" id="about">
+      <div class="container about-inner">
+        <div class="about-text">
+          <h2>Welcome to our <em>Coffee Shop</em></h2>
+          <p class="about-lead">Brewed with care since day one.</p>
+          <p>CafeBot started with a simple idea: serve the coffee we love to drink, in a place people want to stay. We source beans from small farms, roast in small batches, and bake everything in-house each morning.</p>
+          <p>Whether you need a quick espresso on the way to work or a quiet corner for the afternoon, we have a cup with your name on it.</p>
+          <ul class="about-points">
+            <li><strong>Small-batch</strong><span>Beans roasted in small batches</span></li>
+            <li><strong>Baked daily</strong><span>Pastries fresh every morning</span></li>
+            <li><strong>In-house</strong><span>Everything made on site</span></li>
+          </ul>
+          <a href="#menu" class="btn">Know more about our menu</a>
+        </div>
+        <div class="about-art">
+          <div class="about-photo">
+            <img src="images/about-latte.jpg" width="1200" height="800" loading="lazy"
+                 alt="A rosetta latte on a red saucer, seen from above on a dark wooden table">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Menu -->
+    <section class="section menu" id="menu">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Our Menu</h2>
+          <p>Freshly made, every day.</p>
+        </div>
+
+        <!-- PLACEHOLDER: sample items and prices; replace with the real menu -->
+        <div class="menu-group">
+          <h3 class="menu-group-title">Featured Coffee</h3>
+          <ul class="menu-grid">
+            <li class="card">
+              <div class="card-art"><img src="images/espresso.jpg" width="800" height="800" loading="lazy" alt="A small glass of espresso on a saucer with a spoon"></div>
+              <div class="card-body">
+                <h4>Espresso</h4>
+                <span class="price">$3.00</span>
+                <p>A rich, velvety double shot of our house blend.</p>
+              </div>
+            </li>
+            <li class="card">
+              <div class="card-art"><img src="images/cappuccino.jpg" width="800" height="800" loading="lazy" alt="A cappuccino with latte art in a white cup on a saucer"></div>
+              <div class="card-body">
+                <h4>Cappuccino</h4>
+                <span class="price">$4.50</span>
+                <p>Espresso with steamed milk and a thick layer of silky foam.</p>
+              </div>
+            </li>
+            <li class="card">
+              <div class="card-art"><img src="images/caramel-latte.jpg" width="800" height="800" loading="lazy" alt="An iced caramel latte with cream, served on a wooden coaster"></div>
+              <div class="card-body">
+                <h4>Caramel Latte</h4>
+                <span class="price">$5.25</span>
+                <p>Smooth latte sweetened with house-made salted caramel.</p>
+              </div>
+            </li>
+            <li class="card">
+              <div class="card-art"><img src="images/cold-brew.jpg" width="800" height="800" loading="lazy" alt="A tall glass of iced cold brew coffee"></div>
+              <div class="card-body">
+                <h4>Cold Brew</h4>
+                <span class="price">$4.75</span>
+                <p>Steeped for 18 hours for a bold, low-acid finish.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="menu-group">
+          <h3 class="menu-group-title">Bakes &amp; Bites</h3>
+          <ul class="menu-grid">
+            <li class="card">
+              <div class="card-art"><img src="images/croissant.jpg" width="1000" height="1000" loading="lazy" alt="A golden butter croissant on a cork coaster"></div>
+              <div class="card-body">
+                <h4>Butter Croissant</h4>
+                <span class="price">$3.50</span>
+                <p>Flaky, golden layers baked fresh every morning.</p>
+              </div>
+            </li>
+            <li class="card">
+              <div class="card-art"><img src="images/blueberry-muffin.jpg" width="1000" height="1000" loading="lazy" alt="Blueberry muffins in a baking tin with fresh blueberries"></div>
+              <div class="card-body">
+                <h4>Blueberry Muffin</h4>
+                <span class="price">$3.75</span>
+                <p>Soft, golden muffin packed with juicy blueberries.</p>
+              </div>
+            </li>
+            <li class="card">
+              <div class="card-art"><img src="images/french-toast.jpg" width="1000" height="1000" loading="lazy" alt="French toast stacked with blueberries and banana slices on a dark plate"></div>
+              <div class="card-body">
+                <h4>French Toast</h4>
+                <span class="price">$8.50</span>
+                <p>Thick-cut brioche with cinnamon, maple syrup and fresh berries.</p>
+              </div>
+            </li>
+            <li class="card">
+              <div class="card-art"><img src="images/club-sandwich.jpg" width="1000" height="1000" loading="lazy" alt="A tall club sandwich with layers of ham, cheese, tomato and lettuce"></div>
+              <div class="card-body">
+                <h4>Club Sandwich</h4>
+                <span class="price">$9.00</span>
+                <p>Toasted bread layered with ham, cheese, tomato and crisp lettuce.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Why choose us -->
+    <section class="section why" id="why">
+      <div class="container why-inner">
+        <div class="why-text">
+          <h2>Why Choose Us</h2>
+          <p class="why-lead">A little more than a cup of coffee.</p>
+          <p>We built CafeBot to feel like a second living room: good drinks, good seats and no rush.</p>
+        </div>
+        <!-- PLACEHOLDER: sample features; confirm with the café before publishing -->
+        <ul class="feature-grid">
+          <li class="feature">
+            <svg class="feature-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9a15 15 0 0 1 20 0M5.5 12.5a10 10 0 0 1 13 0M9 16a5 5 0 0 1 6 0"/><circle cx="12" cy="19.5" r="1" fill="currentColor"/></svg>
+            <div><h3>Free Wi-Fi</h3><p>Stay connected while you work or catch up with friends.</p></div>
+          </li>
+          <li class="feature">
+            <svg class="feature-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19c0-9 5-14 14-14 0 9-5 14-14 14z"/><path d="M5 19L13 11"/></svg>
+            <div><h3>Peaceful Ambience</h3><p>A calm, cozy room made for slowing down.</p></div>
+          </li>
+          <li class="feature">
+            <svg class="feature-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 11V8a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3v3M3 14a2 2 0 0 1 4 0v2h10v-2a2 2 0 0 1 4 0v5H3zM6 19v2M18 19v2"/></svg>
+            <div><h3>Comfortable Seats</h3><p>Soft chairs and quiet corners for a long afternoon.</p></div>
+          </li>
+          <li class="feature">
+            <svg class="feature-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 10h11v4a5 5 0 0 1-5 5H10a5 5 0 0 1-5-5zM16 11h1.5a2.5 2.5 0 0 1 0 5H16M8 3c-1 1 1 2 0 4M12 3c-1 1 1 2 0 4"/></svg>
+            <div><h3>Welcome Drinks</h3><p>A warm first cup to start your visit right.</p></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 6. Banner -->
+    <section class="banner" aria-labelledby="banner-title">
+      <div class="container banner-inner">
+        <h2 id="banner-title">Real Taste</h2>
+        <p>Roasted in small batches, poured with care, served with a smile.</p>
+        <a href="#visit" class="btn">Plan your visit</a>
+      </div>
+    </section>
+
+    <!-- 7. Hours & Location -->
+    <section class="section visit" id="visit">
+      <div class="container visit-inner">
+        <!-- PLACEHOLDER: sample hours and address; replace with real details -->
+        <div class="visit-card">
+          <h2>Opening Hours</h2>
+          <dl class="hours">
+            <div><dt>Monday – Friday</dt><dd>7:00 am – 7:00 pm</dd></div>
+            <div><dt>Saturday</dt><dd>8:00 am – 8:00 pm</dd></div>
+            <div><dt>Sunday</dt><dd>8:00 am – 5:00 pm</dd></div>
+          </dl>
+
+          <h2 class="visit-subhead">Find Us</h2>
+          <address>
+            123 Main Street<br>
+            Your City, ST 00000<br>
+            <a href="tel:+15550000000">(555) 000-0000</a><br>
+            <a href="mailto:hello@cafebot.example">hello@cafebot.example</a>
+          </address>
+        </div>
+
+        <div class="visit-card visit-map">
+          <!-- PLACEHOLDER: sample location (Times Square, NYC). Replace the bbox, marker and directions link with the real café coordinates. -->
+          <div class="map-embed">
+            <iframe
+              title="Map showing the café location"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=-73.9955%2C40.7530%2C-73.9755%2C40.7630&amp;layer=mapnik&amp;marker=40.7580%2C-73.9855"
+              loading="lazy"
+              referrerpolicy="no-referrer"></iframe>
+          </div>
+          <a class="btn btn-small map-link" href="https://www.google.com/maps/search/?api=1&amp;query=40.7580%2C-73.9855" target="_blank" rel="noopener noreferrer">Get directions</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 8. Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#top" class="logo">
+          <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M6 13h16v6a7 7 0 0 1-7 7h-2a7 7 0 0 1-7-7z" fill="currentColor"/><path d="M22 15h2a3 3 0 0 1 0 6h-2" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M11 4c-1.5 2 1.5 3 0 6M16 4c-1.5 2 1.5 3 0 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <span class="logo-text">Cafe<em>Bot</em></span>
+        </a>
+        <p>Specialty coffee, fresh pastries and light bites in a cozy neighborhood spot.</p>
+      </div>
+      <div>
+        <h3>Contact Info</h3>
+        <ul>
+          <li>123 Main Street, Your City, ST 00000</li>
+          <li><a href="tel:+15550000000">(555) 000-0000</a></li>
+          <li><a href="mailto:hello@cafebot.example">hello@cafebot.example</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#why">Why Us</a></li>
+          <li><a href="#visit">Visit</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Opening Hours</h3>
+        <ul>
+          <li>Mon – Fri: 7 am – 7 pm</li>
+          <li>Saturday: 8 am – 8 pm</li>
+          <li>Sunday: 8 am – 5 pm</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 CafeBot. All rights reserved.</p>
+      <p>Photos by <a href="https://unsplash.com/photos/coffee-and-a-sandwich-look-delicious-g-YVwcplWDE" target="_blank" rel="noopener noreferrer">Esra Afşar</a>, <a href="https://unsplash.com/photos/flat-lay-photography-of-coffee-art-7WxWwqjRZcY" target="_blank" rel="noopener noreferrer">Lex Sirikiat</a>, <a href="https://unsplash.com/photos/clear-glass-cup-on-saucer-xKS-1DP4g7A" target="_blank" rel="noopener noreferrer">Adi Goldstein</a>, <a href="https://unsplash.com/photos/cup-of-coffee-on-saucer-ZLqxSzvVr7I" target="_blank" rel="noopener noreferrer">Dani</a>, <a href="https://unsplash.com/photos/iced-coffee-with-cream-and-caramel-on-a-wooden-coaster-EdDf35V696k" target="_blank" rel="noopener noreferrer">Tin Ma</a>, <a href="https://unsplash.com/photos/glass-cup-filled-with-ice-latte-on-tabletop-L-sm1B4L1Ns" target="_blank" rel="noopener noreferrer">Demi DeHerrera</a>, <a href="https://unsplash.com/photos/a-croissant-sitting-on-top-of-a-cork-coaster-a4xoMVKzbak" target="_blank" rel="noopener noreferrer">Vicky Nguyen</a>, <a href="https://unsplash.com/photos/blueberry-muffins-in-a-muffin-tin-on-a-cutting-board-5p6pM1LlLk4" target="_blank" rel="noopener noreferrer">Elena Taranukhina</a>, <a href="https://unsplash.com/photos/toast-bread-with-blueberry-on-black-plate-zcUgjyqEwe8" target="_blank" rel="noopener noreferrer">Joseph Gonzalez</a> and <a href="https://unsplash.com/photos/sandwich-on-white-surface-IZ0LRt1khgM" target="_blank" rel="noopener noreferrer">Mae Mu</a> on <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a></p>
+    </div>
+  </footer>
+
+  <!-- Chat widget (mock replies only; no API yet) -->
+  <button type="button" class="chat-toggle" id="chat-toggle" aria-expanded="false" aria-controls="chat-window" aria-label="Open chat">
+    <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg>
+  </button>
+  <section class="chat-window" id="chat-window" role="dialog" aria-label="Chat with CafeBot" hidden>
+    <header class="chat-header">
+      <h2>Cafe<em>Bot</em></h2>
+      <button type="button" class="chat-close" id="chat-close" aria-label="Close chat">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </header>
+    <div class="chat-messages" id="chat-messages" role="log" aria-live="polite"></div>
+    <form class="chat-form" id="chat-form" autocomplete="off">
+      <label for="chat-input" class="visually-hidden">Your message</label>
+      <input type="text" id="chat-input" maxlength="500" placeholder="Type a message…" required>
+      <button type="submit" class="chat-send">Send</button>
+    </form>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
